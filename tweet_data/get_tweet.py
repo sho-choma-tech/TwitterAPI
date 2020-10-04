@@ -16,7 +16,7 @@ parser.add_argument('--cnt', default=100, help='取得件数、デフォルト10
 args = parser.parse_args()
 '''
 
-search_words = "誹謗中傷"
+search_words = "＊＊＊＊"
 
 #APIの認証
 CK = config.CONSUMER_KEY
