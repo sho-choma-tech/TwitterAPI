@@ -1,4 +1,4 @@
-CONSUMER_KEY = "C9SwHoivuUDzq9Hy9AhKI2nIq"
-CONSUMER_SECRET = "P1iG2tr9ODWSQL8wjECSpH8nYsP1oxeLDlIFWDkTqbZ12yrl77"
-ACCESS_TOKEN = "1308028461261312000-wK4pGiB1BWws7verZlKYsDXJ5Vm7eF"
-ACCESS_TOKEN_SECRET = "rBUgDL5Ob1uvCv6BKPZeeMbKKkNHJcGH4BiNw0CswgNmz"
+CONSUMER_KEY = "*************************"
+CONSUMER_SECRET = "**************************************************"
+ACCESS_TOKEN = "**************************************************"
+ACCESS_TOKEN_SECRET = "**************************************************"
