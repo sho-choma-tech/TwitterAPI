@@ -10,7 +10,7 @@ from google.cloud.language import enums
 from google.cloud.language import types 
 
 #環境変数設定
-credpath = '/content/drive/My Drive/3IS_Project/My_First_Project-91c201dee294.json'
+credpath = '/content/drive/My Drive/************/*******************.json'
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credpath
 
 #from google.colab import drive 
