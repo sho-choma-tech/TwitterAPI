@@ -25,14 +25,29 @@
     ┗　original_data/  
           ┣ ... 
           ┗ hoge.csv 
+          
 ┣ emotion_gcp/  - Google Natural languageの実行やAPI権限ファイル
     ┣ get_emotion.py     
     ┗ My_Project..._XXX.json 
+    
 ┣ tweet_morpheme/   - 形態素解析の実行ファイル
+    ┣ dic
+       ┗ ... 
+    ┣　neologd
+       ┗ ...
+    ┣　neologd.csv   -　形態素解析用ファイル
     ┗　morpheme.py
+    
 ┣ tweet_data/   - Twitter APIの権限やデータ取得の実行ファイル
     ┣　config.py
     ┣　get_tweet.py 
+    
+┣ tweet_data/   - Fast Text,ルールベースの実行ファイル
+    ┣　fast_text.py
+    ┣　negaposi.py 
+    ┗　util.py
+    
+    
 ```
 
 ## Reference
