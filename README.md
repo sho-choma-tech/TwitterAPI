@@ -1,18 +1,30 @@
 # TwitterAPI
 
+## 
+
 ## データ準備
 
 ```
 ┣ data/
     ┣ emotion_score/  - 感情レベルを定量的にスコア化されたデータ
-    ┃      ┣ Donald_Trump_emotion.csv - ドナルド・トランプ氏に関するツイート
-    ┃      ┣ uzai_emotion.csv - 「うざい」が含まれているツイート（ネガティブ分析）
-    ┃      ┗　 warota_emotion.csv - 「ワロタ」が含まれているツイート（ポジティブ分析）             
+    ┃     ┣ ...
+    ┃     ┗　hoge.csv
+    ┃
     ┗　original_data/  - Twitter APIを利用して取得した元データ
-           ┣ Donald_Trump_data.csv 
-           ┣ uzai_data.csv 
-           ┣ warota_data.csv 
-           ┗　 sample.csv  - テスト用で取得したデータ
+          ┣ ... 
+          ┗ hoge.csv 
+```
+
+## ディレクトリ構成
+```
+┣ emotion_gcp/
+    ┣ get_emotion.py     - Google Natural languageの実行
+    ┗ My_Project..._.json  - API権限ファイル
+┣ 
+    ┃
+    ┗　original_data/  - Twitter APIを利用して取得した元データ
+          ┣ ... 
+          ┗ hoge.csv 
 ```
 
 ## Reference
