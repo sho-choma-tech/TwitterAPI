@@ -1,6 +1,8 @@
 # TwitterAPI
 
-## 
+## 概要
+- GCPやTwitter APIを利用してタイムラインの感情レベルを指標化
+- パッケージや辞書にはないスラングや俗語の評価の拡張を行う
 
 ## データ準備
 
@@ -49,6 +51,9 @@
     
     
 ```
+
+## 開発環境
+
 
 ## Reference
 - [内容資料：slide share](https://www.slideshare.net/shokazari/twitter-249510624)
