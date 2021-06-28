@@ -17,14 +17,22 @@
 
 ## ディレクトリ構成
 ```
-┣ emotion_gcp/
-    ┣ get_emotion.py     - Google Natural languageの実行
-    ┗ My_Project..._.json  - API権限ファイル
-┣ 
+┣　data /    - 元データや感情スコアデータの管理ファイル
+    ┣ emotion_score/  
+    ┃     ┣ ...
+    ┃     ┗　hoge.csv
     ┃
-    ┗　original_data/  - Twitter APIを利用して取得した元データ
+    ┗　original_data/  
           ┣ ... 
           ┗ hoge.csv 
+┣ emotion_gcp/  - Google Natural languageの実行やAPI権限ファイル
+    ┣ get_emotion.py     
+    ┗ My_Project..._XXX.json 
+┣ tweet_morpheme/   - 形態素解析の実行ファイル
+    ┗　morpheme.py
+┣ tweet_data/   - Twitter APIの権限やデータ取得の実行ファイル
+    ┣　config.py
+    ┣　get_tweet.py 
 ```
 
 ## Reference
